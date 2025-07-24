@@ -1,3 +1,49 @@
+🌤️ React Weather App
+📌 Project Overview
+A simple weather application built with React that lets users search for a city and view current weather conditions including temperature, description, and an icon — all fetched from the OpenWeatherMap API.
+✨ Features
+✅ Search weather by city name
+✅ Shows temperature, weather condition, and an icon
+✅ Error handling for invalid cities
+✅ Loading state while fetching data
+✅ Clean and simple UI
+🚀 Tech Stack
+-> React (with Hooks)
+
+-> OpenWeatherMap API
+
+-> CSS inline styles (you can mention Tailwind or any framework if you add later)
+📂 Project Structure
+bash
+Copy
+Edit
+src/
+ ├─ App.js          # Main component with state & fetch logic
+ ├─ index.js        # Entry point
+ ├─ App.css / styles
+ └─ ...
+ How to Run Locally
+Clone this repository:
+
+bash
+git clone https://github.com/Jashh213/React-weather-app.git
+Go into the project folder:
+
+bash
+cd React-weather-app
+Install dependencies:
+
+bash
+npm install
+Start the development server:
+
+bash
+npm start
+✅ The app will run on http://localhost:3000
+🔑 API Key Setup
+Sign up at OpenWeatherMap and get a free API key.
+
+Replace YOUR_API_KEY_HERE in App.js with your key.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
