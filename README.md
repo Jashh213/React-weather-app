@@ -1,6 +1,7 @@
 🌤️ React Weather App
-📌 Project Overview
+Project Overview
 A simple weather application built with React that lets users search for a city and view current weather conditions including temperature, description, and an icon — all fetched from the OpenWeatherMap API.
+
 ✨ Features
 ✅ Search weather by city name
 ✅ Shows temperature, weather condition, and an icon
