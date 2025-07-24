@@ -1,50 +1,46 @@
-🌤️ React Weather App
-Project Overview
-A simple weather application built with React that lets users search for a city and view current weather conditions including temperature, description, and an icon — all fetched from the OpenWeatherMap API.
+# 🌤️ React Weather App
 
-✨ Features
-✅ Search weather by city name
-✅ Shows temperature, weather condition, and an icon
-✅ Error handling for invalid cities
-✅ Loading state while fetching data
-✅ Clean and simple UI
-🚀 Tech Stack
--> React (with Hooks)
+A simple weather application built with **React** that allows users to search for any city and view its current weather conditions (temperature, description, and weather icon) using the OpenWeatherMap API.
 
--> OpenWeatherMap API
+---
 
--> CSS inline styles (you can mention Tailwind or any framework if you add later)
-📂 Project Structure
-bash
-Copy
-Edit
-src/
- ├─ App.js          # Main component with state & fetch logic
- ├─ index.js        # Entry point
- ├─ App.css / styles
- └─ ...
- How to Run Locally
-Clone this repository:
+## ✨ Features
+- 🔎 Search weather by city name
+- 🌡️ Displays temperature in Celsius
+- 📋 Shows weather condition and icon
+- ⚠️ Error message for invalid cities
+- ⏳ Loading indicator while fetching data
+- 🎨 Clean and simple UI
 
-bash
-git clone https://github.com/Jashh213/React-weather-app.git
-Go into the project folder:
+---
 
-bash
-cd React-weather-app
-Install dependencies:
+## 🛠️ Tech Stack
+- ⚛️ React (with Hooks)
+- 🌐 OpenWeatherMap API
+- 💅 Inline CSS styling
 
-bash
-npm install
-Start the development server:
+---
 
-bash
-npm start
-✅ The app will run on http://localhost:3000
+## 🚀 How to Run Locally
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Jashh213/React-weather-app.git
+2.Navigate to the project folder:
+    ```bash
+      cd React-weather-app
+3.Install dependencies:
+    ```bash
+      npm install
+4.Start the development server:
+    ```bash
+    npm start
+✅ App will run on http://localhost:3000
+
 🔑 API Key Setup
 Sign up at OpenWeatherMap and get a free API key.
 
-Replace YOUR_API_KEY_HERE in App.js with your key.
+Open src/App.js and replace:
+YOUR_API_KEY_HERE with your actual API key.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
